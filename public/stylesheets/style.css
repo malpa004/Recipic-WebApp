@@ -1,0 +1,187 @@
+body{
+  padding: 50px;
+  background-image: url("../images/IMG_373651.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  text-transform: capitalize;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.mainPage{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.secondTitle{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+.searchPage{
+  text-align: center;
+  margin-top: 32px;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+
+.box__dragndrop{
+  top: 0;
+  left: 100%;
+}
+
+#theSubmitButton{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#requestedFoodImage{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#indexMainDiv{
+  margin: 45px auto;
+  text-align: center;
+}
+
+#file-has-name{
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+img{
+  margin-left: 10px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.didYourMeanTag{
+
+  text-align: center;
+  margin-top: 15px;
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 35px;
+  color: #4a4a4a;
+}
+
+.recipe-box{
+  border-style: ridge;
+  border-color: #cacecc;
+  background-color: #d4d4d4;
+}
+
+#recipeOptionsList{
+  margin: 40px 0;
+}
+
+.recipeNameTag{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.smallDescription{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 25px;
+}
+
+.recipeByTag{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 25px;
+}
+
+.recipeLinkButton{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.finalRecipeBox{
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  padding: 0 45px !important;
+  padding-bottom: 50px !important;
+}
+
+.container{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+a:link {
+  color: #4a4a4a !important;
+}
+
+a:visited {
+  color: #4a4a4a !important;
+}
+
+a:hover {
+  color: #23d160 !important;
+}
+
+.file-name{
+  border: 1px solid #999;
+  background-color: #d9d8d3;
+  margin: auto;
+  width: 100%;
+}
+
+#errorDiv{
+  display: none;
+  margin-top: 40px;
+}
+
+#uploadButtonDiv{
+  margin-top: 25px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 50px !important;
+}
+
+.column{
+  margin-top: 10px !important;
+}
